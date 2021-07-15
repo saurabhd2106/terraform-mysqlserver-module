@@ -19,5 +19,9 @@ variable "adminLogin" {
 }
 
 variable "adminPassword" {
-  
+   type = string
+}
+
+variable "mySqlDatabase" {
+   type = string
 }
