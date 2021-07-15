@@ -4,7 +4,7 @@ tags = {
     "environment" = "Test"
     }
 
-mysqlServerName = "saurabhmysqlserver"
-mySqlDatabase = "sqldatabase"
+mssqlServerName = "saurabhmssqlserver"
+msSqlDatabase = "sqldatabase"
 adminLogin = "missadministrator"
 adminPassword = "AdminPassword123!"

@@ -10,7 +10,7 @@ variable "tags" {
   type = map(any)
 }
 
-variable "mysqlServerName" {
+variable "mssqlServerName" {
   type = string
 }
 
@@ -22,6 +22,6 @@ variable "adminPassword" {
    type = string
 }
 
-variable "mySqlDatabase" {
+variable "msSqlDatabase" {
    type = string
 }

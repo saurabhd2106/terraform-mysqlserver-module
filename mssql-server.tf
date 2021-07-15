@@ -1,5 +1,5 @@
-resource "azurerm_mssql_server" "mysql-server" {
-  name                         = var.mysqlServerName
+resource "azurerm_mssql_server" "mssql-server" {
+  name                         = var.mssqlServerName
   resource_group_name          = azurerm_resource_group.myterraformgroup.name
   location                     = azurerm_resource_group.myterraformgroup.location
   version                      = "12.0"
@@ -7,9 +7,9 @@ resource "azurerm_mssql_server" "mysql-server" {
   administrator_login_password = var.adminPassword
 }
 
-resource "azurerm_mssql_database" "mysql-db" {
+resource "azurerm_mssql_database" "mssql-db" {
   name           = var.mySqlDatabase
-  server_id      = azurerm_mssql_server.mysql-server.id
+  server_id      = azurerm_mssql_server.mssql-server.id
   collation      = "SQL_Latin1_General_CP1_CI_AS"
   license_type   = "LicenseIncluded"
   max_size_gb    = 4
