@@ -9,3 +9,15 @@ variable "location" {
 variable "tags" {
   type = map(any)
 }
+
+variable "mysqlServerName" {
+  type = string
+}
+
+variable "adminLogin" {
+  type = string
+}
+
+variable "adminPassword" {
+  
+}

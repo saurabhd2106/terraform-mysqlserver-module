@@ -6,3 +6,5 @@ tags = {
 
 mysqlServerName = "SQLServerName"
 mySqlDatabase = "SqlDatabase"
+adminLogin = "admin"
+adminPassword = "admin@1234"
