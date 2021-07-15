@@ -7,5 +7,5 @@ variable "location" {
 }
 
 variable "tags" {
-  type = string
+  type = map(any)
 }
